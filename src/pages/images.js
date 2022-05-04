@@ -3,16 +3,12 @@ import * as React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-
-
-const IndexPage = () => (
+const Images = () => (
   <Layout>
-    <Seo title="Home" />
+    <Seo title="Page two" />
+    <h1>Images</h1>
 
-    <h1>
-      Welcome to <b>Gatsby!</b>
-    </h1>
   </Layout>
 )
 
-export default IndexPage
+export default Images
