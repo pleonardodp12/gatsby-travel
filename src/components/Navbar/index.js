@@ -11,7 +11,7 @@ import {
   NavMenu,
   NavLinks,
   NavItem,
-} from './NavbarElements'
+} from './styles'
 
 const Navbar = () => {
   const [click, setClick] = useState(false)

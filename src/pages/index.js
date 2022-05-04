@@ -1,5 +1,5 @@
 import * as React from "react"
-
+import HeroSection from '../components/HeroSection'
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
@@ -8,10 +8,7 @@ import Seo from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-
-    <h1>
-      Welcome to <b>Gatsby!</b>
-    </h1>
+    <HeroSection />
   </Layout>
 )
 

@@ -13,8 +13,8 @@ export const Nav = styled.nav`
   top: 0;
   z-index: 999;
   @media screen and (max-width: 960px) {
-    background: ${({ click }) => (click ? "#fff" : 'transparent')};
-    transition: 0.8s al ease;
+    background: ${({ click }) => (click ? '#fff' : 'linear-gradient(to bottom, rgba(255,255,255, 0.9) 0%, rgba(255,255,255, 0) 100%)')};
+    transition: 0.3s all ease;
   }
 `
 
@@ -64,7 +64,7 @@ export const NavMenu = styled.ul`
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 90vh;
+    height: 91vh;
     position: absolute;
     top: ${({ click }) => (click ? "100%" : "-1000px")};
     opacity: 1;
@@ -74,7 +74,11 @@ export const NavMenu = styled.ul`
 `
 
 export const NavItem = styled.li`
+  min-width: 120px;
   height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   @media screen and (max-width: 960px) {
     width: 100%;
