@@ -89,6 +89,7 @@ export const NavLinks = styled(Link)`
   color: #141414;
   display: flex;
   align-items: center;
+  font-weight: bold;
   text-decoration: none;
   padding: 0.5rem 1rem;
   height: 100%;
